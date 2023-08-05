@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+    <main>
+        <div class="container2">
+            <div class="mejorOpcion">            
+                <p id="resultado"></p>
+            </div>
+
+            <div class="detalles">
+                <div class="sumatoriaCuotas">
+                    <h3>Sumatoria de las cuotas ajustadas a valor de hoy</h3>
+                    <p id="cuotasAjustadas"></p>
+                </div>
+                <div class="recargo">
+                    <h3>Tasa de recargo</h3>
+                    <p id="tasaRecargo"></p>
+                </div>
+                <div class="montoCuotas">
+                    <h3>Monto de cada cuota</h3>
+                    <p id="cadaCuota"></p>
+                </div>
+                <div class="infleta">
+                    <h3>Infleta mensual estimada</h3>
+                    <p id="inflacionMensual"></p>
+                </div>
+            </div>
+            <div class="detallesDeCuotas">
+                <h2>Cuotas ajustadas por la inflación acumulada mes a mes</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Numero de Cuota</th>
+                            <th>Monto de Cuota</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cuerpoTabla">
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="inversiones">
+                <h2>Si tengo el efectivo y lo invierto en:</h2>
+                <p></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="./main2.js"></script>
+</body>
+</html>

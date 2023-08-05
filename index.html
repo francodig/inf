@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+        
+    </header>
+    <main>
+        <div class="container">
+            <h1>Infleta (Version 2) - Cuotas o Contado?</h1>   
+            <h2>Calculá si te conviene pagar en cuotas o de contado!🤑👌</h2>
+            <form action="" id="form">
+                <div class="inputValue">
+                    <label for="">Ingresá el precio de contado</label>
+                    <input type="text" placeholder="10000" inputmode="numeric" id="precioContado" autocomplete="off">
+                </div>
+                <div class="inputValue">
+                    <label for="">Ingresá el precio total en cuotas</label>
+                    <input type="text" placeholder="1500" inputmode="numeric" id="precioCuotas" autocomplete="off">
+                </div>
+                <div class="inputValue">
+                    <label for="">Inflación mensual estimada</label>
+                    <input type="text" placeholder="5%" inputmode="numeric" id="inflacion" autocomplete="off">
+                </div>
+                <div class="inputValue">
+                    <label for="">Cantidad de cuotas</label>
+                    <select name="cuotas" id="cuotas">
+                        <option value="3" id="tresCuotas">3 CUOTAS</option>
+                        <option value="6" id="seisCuotas">6 CUOTAS</option>
+                        <option value="9" id="nueveCuotas">9 CUOTAS</option>
+                        <option value="10" id="diezCuotas">10 CUOTAS</option>
+                        <option value="12" id="doceCuotas">12 CUOTAS</option>
+                        <option value="18" id="dieciochoCuotas">18 CUOTAS</option>
+                        <option value="24" id="veinticuatroCuotas">24 CUOTAS</option>
+                        <option value="30" id="treintaCuotas">30 CUOTAS</option>
+                        <option value="32" id="treintaydosCuotas">32 CUOTAS</option>
+                        <option value="36" id="treintayseisCuotas">36 CUOTAS</option>
+                        <option value="48" id="cuarentayochoCuotas">48 CUOTAS</option>
+                    </select>
+                </div>
+                <input type="submit" value="Calcular" class="button" id="submit">
+
+            </form>
+        </div>
+    </main>
+
+    <p id="resultado"></p>
+
+
+
+    <footer>
+        <p>Developed by Franco Dignani. All rights reserved</p>
+    </footer>
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
